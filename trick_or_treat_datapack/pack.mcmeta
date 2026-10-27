@@ -2,7 +2,7 @@
     "pack": {
         "description": "겉바 속촉 할로윈 컨텐츠를 위한 데이터팩",
         "pack_format": 121,
-        "min_format": [ 121 , 0 ]
+        "min_format": [ 121 , 0 ],
         "max_format": [ 121 , 0 ]
     }
 }

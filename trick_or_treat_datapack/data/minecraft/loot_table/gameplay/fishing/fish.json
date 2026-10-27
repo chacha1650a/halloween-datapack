@@ -8,8 +8,9 @@
                 { "type": "minecraft:item", "name": "salmon", "weight": 25 },
                 { "type": "minecraft:item", "name": "tropical_fish", "weight": 2  },
                 { "type": "minecraft:item", "name": "pufferfish", "weight": 13 },
-                { "type": "minecraft:loot_table", "value": "tot:zombie_salmon", "weight": 60 },
-                { "type": "minecraft:loot_table", "value": "tot:frankeshutain_fish", "weight": 40 }
+                { "type": "minecraft:loot_table", "value": "tot:zombie_salmon", "weight": 120 },
+                { "type": "minecraft:loot_table", "value": "tot:frankeshutain_fish", "weight": 80 },
+                { "type": "minecraft:loot_table", "value": "tot:vampire_pufferfish", "weight": 100 }
             ]
         }
     ],

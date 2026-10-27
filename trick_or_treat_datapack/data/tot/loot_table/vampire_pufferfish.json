@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pufferfish",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": { "translate": "item.tot.vampire_pufferfish","fallback": "뱀파이어 복어" }
+                        },
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "tot:vampire_pufferfish"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

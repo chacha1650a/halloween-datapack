@@ -2,7 +2,7 @@
     "pack": {
         "description": "겉바속촉 할로윈 컨텐츠용 - Made by 챠챠",
         "pack_format": 97,
-        "max_format": [ 97, 0 ],
-        "min_format": [ 97, 1 ]
+        "min_format": [ 97, 0 ],
+        "max_format": [ 97, 1 ]
     }
 }

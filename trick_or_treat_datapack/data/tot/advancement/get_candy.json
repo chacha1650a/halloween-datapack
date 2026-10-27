@@ -1,0 +1,35 @@
+{
+    "parent": "tot:halloween_category",
+    "display": {
+        "icon": {
+            "id": "minecraft:sugar"
+        },
+        "title": {
+            "text": "달콤한 시작"
+        },
+        "description": {
+            "text": "호박을 부숴 할로윈 사탕을 얻어보세요"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_candy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sugar",
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "strings": [ "tot:candy" ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

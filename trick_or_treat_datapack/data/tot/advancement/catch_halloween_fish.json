@@ -21,6 +21,10 @@
     },
     "criteria": {
         "catch_zombie_salmon": { "trigger": "minecraft:inventory_changed","conditions": { "items": [ { "items": "minecraft:salmon","components": { "minecraft:item_model": "tot:zombie_salmon" } } ] } },
-        "catch_frankeshutain_fish": { "trigger": "minecraft:inventory_changed","conditions": { "items": [ { "items": "minecraft:tropical_fish","components": { "minecraft:item_model": "tot:frankeshutain_fish" } }] } }
-    }
+        "catch_frankeshutain_fish": { "trigger": "minecraft:inventory_changed","conditions": { "items": [ { "items": "minecraft:tropical_fish","components": { "minecraft:item_model": "tot:frankeshutain_fish" } }] } },
+        "catch_vampire_pufferfish": { "trigger": "minecraft:inventory_changed","conditions": { "items": [ { "items": "minecraft:pufferfish","components": { "minecraft:item_model": "tot:vampire_pufferfish" } } ] } }
+    },
+    "requirements": [
+        [ "catch_zombie_salmon", "catch_frankeshutain_fish", "catch_vampire_pufferfish" ]
+    ]
 }

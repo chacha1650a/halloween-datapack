@@ -10,7 +10,7 @@
                         {
                             "type": "minecraft:set_name",
                             "target": "item_name",
-                            "name": { "translate": "tot.frankenshutain_fish", "fallback": "프랑케슈타인 열대어" }
+                            "name": { "translate": "item.tot.frankeshutain_fish", "fallback": "프랑케슈타인 열대어" }
                         },
                         {
                             "type": "set_components",

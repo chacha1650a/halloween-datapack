@@ -10,7 +10,7 @@
                         {
                             "type": "minecraft:set_name",
                             "target": "item_name",
-                            "name": { "translate": "tot.zombie_salmon", "fallback": "좀비 연어" }
+                            "name": { "translate": "item.tot.zombie_salmon", "fallback": "좀비 연어" }
                         },
                         {
                             "type": "minecraft:set_components",
