@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:sugar",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": { "text": "할로윈 사탕","color": "#FF7518","italic": false  }
+                        },
+                        {
+                            "type": "minecraft:set_lore",
+                            "mode": "append",
+                            "lore": [
+                                { "text": "HAPPY HALLOWEEN!","color": "white","italic": false }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:set_count",
+                            "count": { "type": "minecraft:uniform", "min": 1, "max": 3  }
+                        },
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "strings": [
+                                        "tot:candy"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

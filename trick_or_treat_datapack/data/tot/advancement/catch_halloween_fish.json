@@ -1,0 +1,26 @@
+{
+    "parent": "tot:get_candy",
+
+    "display": {
+        "icon": {
+            "id": "minecraft:salmon",
+            "components": {
+                "minecraft:item_model": "tot:zombie_salmon"
+            }
+        },
+        "title": {
+            "text": "무서운 물고기!"
+        },
+        "description": {
+            "text": "할로윈 물고기를 1종 이상 낚아보세요"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "criteria": {
+        "catch_zombie_salmon": { "trigger": "minecraft:inventory_changed","conditions": { "items": [ { "items": "minecraft:salmon","components": { "minecraft:item_model": "tot:zombie_salmon" } } ] } },
+        "catch_frankeshutain_fish": { "trigger": "minecraft:inventory_changed","conditions": { "items": [ { "items": "minecraft:tropical_fish","components": { "minecraft:item_model": "tot:frankeshutain_fish" } }] } }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                { "type": "minecraft:item", "name": "cod", "weight": 60 },
+                { "type": "minecraft:item", "name": "salmon", "weight": 25 },
+                { "type": "minecraft:item", "name": "tropical_fish", "weight": 2  },
+                { "type": "minecraft:item", "name": "pufferfish", "weight": 13 },
+                { "type": "minecraft:loot_table", "value": "tot:zombie_salmon", "weight": 60 },
+                { "type": "minecraft:loot_table", "value": "tot:frankeshutain_fish", "weight": 40 }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+}

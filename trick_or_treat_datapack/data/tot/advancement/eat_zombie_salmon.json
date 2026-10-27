@@ -1,0 +1,36 @@
+{
+    "parent": "tot:catch_halloween_fish",
+
+    "display": {
+        "icon": {
+            "id": "minecraft:salmon",
+            "components": {
+                "minecraft:item_model": "tot:zombie_salmon"
+            }
+        },
+        "title": {
+            "text": "암모니아 폭탄"
+        },
+        "description": {
+            "text": "좀비 연어를 섭취하세요",
+            "color": "green"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "criteria": {
+        "eat_zombie_salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:salmon",
+                    "components": {
+                        "minecraft:item_model": "tot:zombie_salmon"
+                    }
+                }
+            }
+        }
+    }
+}

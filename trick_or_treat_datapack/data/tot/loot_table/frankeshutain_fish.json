@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tropical_fish",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": { "translate": "tot.frankenshutain_fish", "fallback": "프랑케슈타인 열대어" }
+                        },
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "minecraft:item_model": "tot:frankeshutain_fish"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
