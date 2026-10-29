@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "  ",
+        "###",
+        "  "
+    ],
+    "key": {
+        "#": [
+            "minecraft:sugar"
+        ]
+    },
+    "result": {
+        "id": "minecraft:sugar",
+        "components": {
+            "minecraft:item_model": "tot_candy",
+            "minecraft:custom_name": { "text": "할로윈 사탕","color": "#FF7700","italic": false }
+        },
+        "count": 1
+    }
+}

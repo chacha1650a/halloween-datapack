@@ -8,7 +8,7 @@
             "text": "달콤한 시작"
         },
         "description": {
-            "text": "호박을 부숴 할로윈 사탕을 얻어보세요"
+            "text": "사탕 조각으로 사탕을 만들어보세요"
         },
         "frame": "task",
         "announce_to_chat": true,
